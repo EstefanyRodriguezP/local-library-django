@@ -1,0 +1,54 @@
+# Entorno virtual
+venv/
+env/
+django_env/
+
+# Archivos de configuración del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Archivos de bases de datos locales
+*.sqlite3
+
+# Archivos de logs
+*.log
+
+# Archivos temporales
+*.tmp
+*.swp
+*.bak
+
+# Archivos del editor
+.vscode/
+.idea/
+*.code-workspace
+
+# Archivos generados por Django
+/static/
+media/
+
+# Entornos de pruebas
+.coverage
+htmlcov/
+.tox/
+
+# Archivos de migraciones
+# Se comentaa esta línea para guardar las migraciones
+# */migrations/*.py
+*/migrations/__pycache__/
+
+# Archivos de compilación
+dist/
+build/
+*.egg-info/
+
+# Secretos y configuraciones locales
+.env
+.env.local
+.settings/
